@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container3{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: #181D3E;
+    gap: 20px;
+    margin-top: 100px;
+    margin-right: 70px;
+    margin-bottom: 25px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    background: linear-gradient(135deg, #210944, #150C1B, #2E2A7E, #111012);
+}
+.container1{
+    flex-wrap: wrap;
+    padding: 50px;
+    color: white;
+}
+input{
+    color: white;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #131516;
+    border-radius: 10px;
+    border: none;
+}
+::placeholder{
+    color: #D3D6DF;
+}
+h1{
+    font-size: 30px;
+}
+.subtitulo{
+    margin-bottom: 15px;
+    font-size: 40px;
+  color: #E0D7FF;
+  font-size: 48px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.icones{
+    width: auto;
+    height: 50px;
+}
+button{
+    background-color: #BDD2FF;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+button:hover{
+    background-color: #5998f0;
+}
+label{
+    color: white;
+    font-size: 20px;
+}
+select{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #131516;
+}
+.divisoria{
+    border: none;
+    margin: 0;
+    height: 3px;
+    width: auto;
+    background: linear-gradient(135deg, #6d0099 0%,#6119a0 0%,#5d009b 32%,#6900db 40%,#280177 51%,#c700ce 100%);
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: white;
+    max-width: 400px;
+}
+.detalhes{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.aulas{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    background-color: #060609;
+}
+.aula{
+    display: flex;
+    gap: 120px;
+    font-size: 12px;
+}
+.container4{
+    flex-wrap: wrap;
+    border: 0.1px solid rgba(245, 245, 245, 0.5);
+    border-radius: 15px;
+    padding: 32.5px;
+    max-width: 400px;
+    background: linear-gradient(to bottom, #000000 0%,#000000 50%,#050505 51%,#1b213d 100%);
+}
+.container5{
+    flex-wrap: wrap;
+    border: 0.1px solid rgba(245, 245, 245, 0.5);
+    border-radius: 15px;
+    padding: 32.5px;
+    max-width: 400px;
+    background: linear-gradient(to bottom, #000000 0%,#000000 50%,#050505 51%,#1b213d 100%);
+}
+.container6{
+    flex-wrap: wrap;
+    border: 0.1px solid rgba(245, 245, 245, 0.5);
+    border-radius: 15px;
+    padding: 32.5px;
+    max-width: 400px;
+    background: linear-gradient(to bottom, #000000 0%,#000000 50%,#050505 51%,#1b213d 100%);
+}
+.importante{
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+.professor{
+    background-color: #060609;
+}
+.sobre{
+    max-width: 500px;
+    font-size: 20px;
+}
+.container7{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 225px;
+    padding-bottom: 50px;
+}
+img{
+    width: auto;
+    height: 600px;
+}
+.img-professor{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.texto-sobre-o-professor{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 10px;
+  }
+  img{
+    width: auto;
+    height: 150px;
+  }
+  header{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    background: linear-gradient(135deg, #210944, #150C1B, #2E2A7E, #111012);
+}
+}
