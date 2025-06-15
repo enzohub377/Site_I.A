@@ -53,8 +53,8 @@ h1{
 .subtitulo{
     margin-bottom: 15px;
     font-size: 40px;
-  color: #E0D7FF;
-  font-size: 48px;
+    color: #E0D7FF;
+    font-size: 48px;
 }
 .container2{
     display: flex;
@@ -179,7 +179,13 @@ img{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-left: 7px;
 }
+
+
+
+
+
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
@@ -190,14 +196,45 @@ img{
   }
   img{
     width: auto;
-    height: 150px;
+    height: 325px;
+     margin-top: 20px;
+  
+  
   }
   header{
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 400px;
+    gap: 20px;
     background: linear-gradient(135deg, #210944, #150C1B, #2E2A7E, #111012);
+}
+.aulas{
+   gap: 16px;
+   padding: 15px;
+}
+h1{
+    font-size: 25px;
+    max-width: 300px;
+}
+.subtitulo{
+    font-size: 35px;
+    text-align: center;
+}
+.container2{
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+}
+.icones{
+    height: 125px;
+}
+.container3{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.container7{
+    padding-top: 25px;
 }
 }
