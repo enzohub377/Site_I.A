@@ -56,6 +56,4 @@ Este projeto foi construído utilizando tecnologias web modernas e nativas:
 
 ## 📱 Responsividade
 
-O site conta com estilizações adaptativas via **Media Queries** no arquivo `style.css`, garantindo uma experiência fluida e organizada em dispositivos móveis, tablets e telas de desktop.<<<<<<< HEAD
 O site conta com estilizações adaptativas via **Media Queries** no arquivo `style.css`, garantindo uma experiência fluida e organizada em dispositivos móveis, tablets e telas de desktop.
-=======
