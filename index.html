@@ -1,162 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plano Bem Bolado</title>
+    <meta name="description" content="Um encontro prático para explorar ideias, inteligência artificial e tecnologia criativa.">
+    <title>Laboratório Aberto | Tecnologia Criativa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-        <div class="container1">
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Laboratório Aberto, início">
+            <span class="brand-mark" aria-hidden="true">L</span>
+            <span>laboratório<span class="brand-accent">aberto</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a href="#programacao">Programação</a>
+            <a href="#facilitador">Facilitador</a>
+            <a class="nav-cta" href="#programacao">Explorar o encontro <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
 
-            <h2 class="subtitulo">IA com ChatGPT</h2>
-
-            <h1>Aprenda a criar aplicativos com<br> ChatGPT que podem ser vendidos<br> por mais de R$ 5.000 e usados em<br> qualquer empresa pra se destacar.</h1>
-
-        <div class="container2">
-
-            <img class="icones" src="icone1.png" alt="icone">
-            <p>Projetos práticos e do Zero</p>
-
-            <img class="icones" src="icone2.png" alt="icone" srcset="">
-            <p>Para todos os níveis</p>
-            
-            <img class="icones" src="icone3.png" alt="icone">
-            <p>Ao Vivo</p>
-
-        </div>
-
-        </div>
-
-        <div class="container3">
-            <input placeholder="Seu nome" type="text" required>
-            <input placeholder="E-mail" type="email" required>
-            <input placeholder="Whatsapp" id="telefone" type="tel" pattern="[0-9]{10,11}" required>
-
-            <label for="pais"><u>Selecione um país</u>:</label>
-            <select name="pais" id="pais" required>
-            <option value="us">Estados Unidos</option>
-            <option value="br">Brasil</option>
-            <option value="pt">Portugal</option>
-            <option value="fr">França</option>
-            <option value="jp">Japão</option>
-            <option value="de">Alemanha</option>
-            <option value="ca">Canadá</option>
-            <option value="it">Itália</option>
-            <option value="ru">Rússia</option>
-            <option value="au">Austrália</option>
-            <option value="in">Índia</option>
-            <option value="cn">China</option>
-            <option value="za">África do Sul</option>
-            <option value="mx">México</option>
-
-            </select>
-
-            <button>Entrar na lista de espera</button>
-        </div>
-
- 
-
-    
-        </header>
-    <hr class="divisoria">
-
-<section class="aulas">
-
-
-        <div class="container4">
-
-            <div class="aula">
-
-            <h2 class="importante">Aula 01</h2>
-            <h2 class="importante">03 de Junho - 20H</h2>
-
-            </div>
-            
-                <p class="detalhes">Gerador de Posts Virais para Redes Sociais</p>
-
-                <p>Crie um aplicativo que gera posts eficazes, que chamam atenção e com alto potencial de viralização - a partir de um texto e 2 cliques.</p>
-
-                </div>
-
-
-
-                <div class="container5">
-
-            <div class="aula">
-
-                <h2 class="importante">Aula 02</h2>
-                <h2 class="importante">05 de Junho - 20H</h2>
-
-                </div>
-
-                <p class="detalhes">Tradutor de Áudio</p>
-
-                <p>O usuário grava um áudio que é automaticamente traduzido pra qualquer língua e transcrito na tela.</p>
-
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Encontro de tecnologia criativa</p>
+                <h1 id="hero-title">Ideias boas<br>pedem <span>experimento.</span></h1>
+                <p class="hero-description">Um espaço para tirar projetos do papel, experimentar inteligência artificial e descobrir novas maneiras de resolver problemas com tecnologia.</p>
+                <a class="primary-link" href="#programacao">Conheça as atividades <span aria-hidden="true">↓</span></a>
+                <ul class="event-facts" aria-label="Sobre o encontro">
+                    <li>Prática desde o primeiro minuto</li>
+                    <li>Aberto a diferentes experiências</li>
+                    <li>Ideias, protótipos e colaboração</li>
+                </ul>
             </div>
 
+            <figure class="hero-portrait">
+                <img src="assets/foto%20do%20professor.png" alt="Brenno Sullivan, especialista em inteligência artificial e tecnologia">
+                <figcaption><span>01 / quem conduz</span><strong>Brenno Sullivan</strong></figcaption>
+                <span class="portrait-stamp" aria-hidden="true">FAÇA<br>TESTE<br>APRENDA</span>
+            </figure>
+            <p class="hero-index" aria-hidden="true">CRIAR / TESTAR / REPETIR</p>
+        </section>
 
-            <div class="container6">
-
-            <div class="aula">
-
-                <h2 class="importante">Aula 03</h2>
-                <h2 class="importante">08 de Junho - 20H</h2>
-
-                </div>
-
-                <p class="detalhes">Gerador do Currículo Perfeito</p>
-                <p>Seu aplicativo vai ser capaz de receber o CV do usuário, otimizar ele, e entregar uma nova versão pronta pra se destacar em qualquer processo seletivo</p>
-
-            
-
+        <section class="program-section" id="programacao" aria-labelledby="program-title">
+            <div class="section-heading">
+                <p class="eyebrow">Um laboratório, muitas possibilidades</p>
+                <h2 id="program-title">Do primeiro rascunho<br>ao próximo passo.</h2>
+                <p>Uma sequência de experiências para pensar, construir e melhorar uma ideia usando ferramentas digitais.</p>
             </div>
 
-</section>
-
-            <section class="professor">
-
-                <div class="container7">
-
-
-                    <div class="texto-sobre-o-professor">
-
-                    <h2>Brenno Sullivan</h2>
-
-                    <p class="sobre">Seu Professor</p>
-
-                    <p class="sobre">Sou especialista em inteligência artifical, sócio e head de tecnologia da VAROS, formado em Economia pela UFF e inserido no mercado financeiro há mais de 5 anos.</p>
-
-                    <p class="sobre">Trabalhei em um dos maiores fundos de pensão do país, que faz a gestão de 4 bilhões de reais. Em poucos meses me tornei peça chave dentro dele depois de criar uma inteligência artificial que escolhia as melhores ações da bolsa, sistematicamente, através de indicadores. Colocamos 150 milhões de reais do fundo nessa estratégia e nos primeiros 6 meses já tínhamos superado o Ibovespa em 10%.</p>
-
-                    <p class="sobre">Na VAROS, criei toda a parte de dados e IA da empresa do zero. Hoje eu gerencio toda essa área na VAROS usando diversas IA’s, agentes GPT e Python pra automatizar tarefas, tomar melhores decisões, desenvolver produtos e tornar a nossa equipe mais produtiva.</p>
-
-                    <p class="sobre">Já mudei a vida de mais de 12 mil alunos com inteligência artificial, e agora chegou a vez de mudar a sua.</p>
-
+            <div class="activity-list">
+                <article class="activity-item">
+                    <span class="activity-number" aria-hidden="true">01</span>
+                    <div>
+                        <h3>Encontre a ideia</h3>
+                        <p>Transforme uma curiosidade ou desafio real em um projeto claro e possível de testar.</p>
                     </div>
-
-                
-
-                    <div class="img-professor">
-
-                    <img src="foto do professor.png" alt="professor">
-
+                    <span class="activity-tag">Explorar</span>
+                </article>
+                <article class="activity-item">
+                    <span class="activity-number" aria-hidden="true">02</span>
+                    <div>
+                        <h3>Prototipe com IA</h3>
+                        <p>Use inteligência artificial como parceira para criar, revisar e dar forma a uma primeira versão.</p>
                     </div>
-                
-                
-                </div>
+                    <span class="activity-tag">Experimentar</span>
+                </article>
+                <article class="activity-item">
+                    <span class="activity-number" aria-hidden="true">03</span>
+                    <div>
+                        <h3>Teste e refine</h3>
+                        <p>Apresente o que criou, troque perspectivas e identifique o próximo ajuste do projeto.</p>
+                    </div>
+                    <span class="activity-tag">Compartilhar</span>
+                </article>
+            </div>
+        </section>
 
-                
+        <section class="facilitator-section" id="facilitador" aria-labelledby="facilitator-title">
+            <div class="facilitator-image">
+                <img src="assets/foto%20do%20professor.png" alt="Retrato de Brenno Sullivan">
+                <span class="image-caption">Tecnologia com intenção.</span>
+            </div>
+            <div class="facilitator-copy">
+                <p class="eyebrow">Quem acompanha seus experimentos</p>
+                <h2 id="facilitator-title">Brenno Sullivan</h2>
+                <p class="facilitator-role">Especialista em inteligência artificial e tecnologia</p>
+                <p>Formado em Economia pela UFF, Brenno é sócio e head de tecnologia da VAROS. Criou a área de dados e inteligência artificial da empresa e trabalha com agentes, Python e automação para desenvolver produtos e melhorar processos.</p>
+                <p>No Laboratório Aberto, essa experiência prática vira ponto de partida para explorar ideias e construir soluções junto com outras pessoas.</p>
+                <a class="text-link" href="#programacao">Voltar à programação <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
 
-            </section>
-        
-
-    
-
-
-
+    <footer class="site-footer">
+        <a class="brand" href="#inicio">
+            <span class="brand-mark" aria-hidden="true">L</span>
+            <span>laboratório<span class="brand-accent">aberto</span></span>
+        </a>
+        <p>Ideias em movimento. Tecnologia a serviço da criatividade.</p>
+        <a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
 </body>
 </html>
